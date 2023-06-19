@@ -19,7 +19,7 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #00ffff;
-    padding: 30px 60px;
+    padding: 30px 50px;
     font-size: 30px;
     font-weight: 500;
     text-transform: uppercase;
@@ -38,7 +38,7 @@ a::before {
     background-color: rgba(255, 255, 255, 0.05);
 }
 
-span:nth-child(1) {
+a span:nth-child(1) {
     position: absolute;
     top: 0;
     left: 0;
@@ -56,7 +56,7 @@ span:nth-child(1) {
     }
 }
 
-span:nth-child(2) {
+a span:nth-child(2) {
     position: absolute;
     top: 0;
     right: 0;
@@ -75,7 +75,7 @@ span:nth-child(2) {
     }
 }
 
-span:nth-child(3) {
+a span:nth-child(3) {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -93,7 +93,7 @@ span:nth-child(3) {
     }
 }
 
-span:nth-child(4) {
+a span:nth-child(4) {
     position: absolute;
     top: 0;
     left: 0;
